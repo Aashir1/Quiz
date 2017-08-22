@@ -1,0 +1,23 @@
+#timer{
+    float: right;
+}
+#next-btn,#quiz{
+    display: none;
+}
+.btn-wrapper{
+    text-align: center;
+    padding-top: 15px;
+}
+.for-padding{
+    padding: 15px;
+}
+input[type='radio']{
+    margin-right: 5px;
+}
+.options-wrapper{
+    text-align: right;
+    padding: 0 15px 15px;
+}
+#next-btn{
+    margin-right: 30px;
+}

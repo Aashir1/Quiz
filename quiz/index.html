@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/jquery.js.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="allWrapper panel">
+            <div id="timer">
+
+            </div>
+            <div class="container btn-wrapper">
+                
+                <button onClick="start();" id="start" class="btn btn-primary">
+                    Start Quiz
+                </button>
+            </div>
+            <div class="panel-group">
+                <div id="quiz" class="panel panel-default">
+                    <div id="question" class="panel-heading for-padding"></div>
+                    <div class="for-padding">
+                        <ol class="panel-body for-padding">
+                            <li><input type="radio" name="optn" id="optn1" onClick="chekRadio()" ;><label for="optn1" id="first"></label></li>
+                            <li><input type="radio" name="optn" id="optn2" onClick="chekRadio()" ;><label for="optn2" id="second"></label></li>
+                            <li><input type="radio" name="optn" id="optn3" onClick="chekRadio()" ;><label for="optn3" id="third"></label></li>
+                            <li><input type="radio" name="optn" id="optn4" onClick="chekRadio()" ;><label for="optn4" id="four"></label></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="container options-wrapper">
+                <button id="next-btn" class="btn btn-success disabled">
+                    Next
+                </button>
+            </div>
+
+            <div id="result">
+
+            </div>
+            <div class="container" style="display : block">
+                <button class="btn btn-success" id="logout" style="display : none;">
+                            Logout
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
